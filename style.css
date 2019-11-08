@@ -709,6 +709,10 @@ p {
     color: #222222!important;
 }
 
+blockquote footer{
+    color: #595959;
+}
+
 .social {
     max-width: 400px;
     margin: auto auto 40px auto;
