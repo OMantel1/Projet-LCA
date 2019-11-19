@@ -723,6 +723,11 @@ blockquote footer{
 .social {
     max-width: 400px;
     margin: auto auto 40px auto;
+    display: block;   
+}
+
+.social-color{
+    color: #222222;
 }
 
 h2 {
