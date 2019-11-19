@@ -706,11 +706,6 @@ p {
     font-weight: 700;
 }
 
-/* = ajout id pour validation contraste accessibilité */
-#cta-hero-contrast {
-    color: #222222!important;
-}
-
 /* = modification couleur icones réseaux sociaux pour validation contraste accessibilité */
 .fa{
     color: #222222!important;
@@ -749,7 +744,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #222222!important;
 }
 
 h4 {
@@ -759,6 +754,12 @@ h4 {
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
+}
+
+
+/* modification couleur texte */
+.black {
+    color: #222222!important;
 }
 
 .white {
@@ -806,7 +807,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #222222!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -898,10 +899,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+ 
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -910,8 +908,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1052,8 +1050,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    adress{
+    adress p{
         text-align: center;
+        color: #222222;
     }
 }
 
