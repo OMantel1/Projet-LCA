@@ -852,6 +852,12 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+iframe {
+    width: 600px;
+    height: 450px;
+    border: 0px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
